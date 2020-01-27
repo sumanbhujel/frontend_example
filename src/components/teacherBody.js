@@ -13,10 +13,11 @@ class TeacherBody extends React.Component {
     render() {
         return (<section>
         
-            <div>
+            <div className="teacher">
                 <h1>{this.props.name1}</h1>
                 <p> 
-                <NavLink to={"/singleuser/"+this.props.id}>Single User</NavLink>
+                <NavLink to={"/singleuser/"+this.props.id}>SingleUser</NavLink>
+                <NavLink to={"/update/"+this.props.id}>Update</NavLink>
                 
                 <button onClick={this.deleteTeacher}>Delete</button></p>
             </div>

@@ -25,11 +25,7 @@ class SingleTeacher extends React.Component {
                 <p>Email or phone: {this.state.user_data.email_phone}</p>
                 <p>Birthday: {this.state.user_data.birthday}</p>
                 <p>Gender: {this.state.user_data.gender}</p>
-
-                
-                    
-                
-    
+               
             </div>
         )
     }
